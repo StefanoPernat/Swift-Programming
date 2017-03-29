@@ -17,3 +17,7 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Loops**
 - [x] **Strings**
 - [x] **Optionals**
+
+### Part III
+
+- [x] Arrays
