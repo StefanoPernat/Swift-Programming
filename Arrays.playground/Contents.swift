@@ -48,3 +48,21 @@ let launches = [                                        //  immutable array cann
     "Falafel Wrap"
 ]
 
+//  Bronze Challenge
+var toDoList = ["Take out garbage", "Pay bills", "Cross off finished items"]
+print("toDoList has \(toDoList.count) item/s")
+
+//  Silver Challenge
+var toDoListReversed: [String] = []
+for todo in toDoList {
+    toDoListReversed = [todo] + toDoListReversed
+}
+
+print(toDoListReversed)
+toDoList.reverse()
+print(toDoList)
+
+//  Golden Challenge
+if let neededIndex = bucketList.index(of: "Fly hot air baloon to Fiji") {
+    print(neededIndex)
+}
