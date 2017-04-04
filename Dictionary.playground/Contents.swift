@@ -51,3 +51,10 @@ let album = [
 ]
 
 let watchedMovies = Array(movieRatings.keys)
+
+// Silver and Gold challenge
+let zipCodes = ["Italy": [38100, 38121, 38123], "Washington": [98015, 98020, 98025]]
+
+for (state, codes) in zipCodes {
+    print("\(state) has the following zip codes: \(codes)")
+}
