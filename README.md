@@ -20,6 +20,7 @@ This repository will be a set of playground from the book I use to learn Swift
 
 ### Part III
 
-- [x] Arrays
-- [x] Dictionaries
-- [x] Set
+- [x] **Arrays**
+- [x] **Dictionaries**
+- [x] **Set**
+- [x] **Functions**
