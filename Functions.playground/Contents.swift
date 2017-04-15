@@ -92,16 +92,36 @@ func grabMiddleName(fromFullName name: (String, String?, String)) -> String? {
 
 let middleName = grabMiddleName(fromFullName: ("Stefano", nil, "Pernat"))
 if let theName = middleName {
-    print(middleName)
+    print(theName)
 }
 
 // function with guard statement
+// refactor for Bronze Challenge
 func greetByMiddleName(fromFullName name: (first: String, middle: String?, last: String)) {
-    guard let middleName = name.middle else {   // if true execution continue else print hey there and return
+    guard let middleName = name.middle, middleName.characters.count < 4 else {   // if true execution continue else print hey there and return
         print("Hey there!")
         return
     }
     print("Hey \(middleName)")
 }
 
-greetByMiddleName(fromFullName: ("Matt", "Danger", "Mathias"))
+greetByMiddleName(fromFullName: ("Matt", "Dan", "Mathias"))
+
+func siftsBeans(fromGroceryList list: [String]) -> (beans: [String], otherGroceries: [String]) {
+    var beans = [String]()
+    var otherGroceries = [String]()
+    
+    for grocery in list {
+        if grocery.localizedCaseInsensitiveContains("beans") {
+            beans.append(grocery)
+        } else {
+            otherGroceries.append(grocery)
+        }
+    }
+    
+    return (beans, otherGroceries)
+}
+
+let result = siftsBeans(fromGroceryList: ["green beans", "milk", "black beans", "pinto beans", "apples"])
+print(result.beans)
+print(result.otherGroceries)
