@@ -24,3 +24,4 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Dictionaries**
 - [x] **Set**
 - [x] **Functions**
+- [x] **Closures**
