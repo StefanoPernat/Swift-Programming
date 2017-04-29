@@ -26,3 +26,4 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Functions**
 - [x] **Closures**
 - [x] **Enumerations**
+- [x] **Struct and Classes**
