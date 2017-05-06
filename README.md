@@ -25,7 +25,13 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Set**
 - [x] **Functions**
 - [x] **Closures**
+
+### Part IV
+
 - [x] **Enumerations**
 - [x] **Struct and Classes**
 - [x] **Properties**
 - [x] **Initialization**
+- [x] **Values vs Reference types**
+
+### Part V
