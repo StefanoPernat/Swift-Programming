@@ -42,3 +42,4 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Generics**
 - [x] **Protocol Extension**
 - [x] **Memory Management and ARC**
+- [x] **Equitable and Comparable**
