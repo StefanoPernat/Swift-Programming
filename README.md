@@ -45,3 +45,5 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Equitable and Comparable**
 
 ### Part VI
+
+- [x] **Your first Cocoa Application**
