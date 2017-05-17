@@ -43,3 +43,5 @@ This repository will be a set of playground from the book I use to learn Swift
 - [x] **Protocol Extension**
 - [x] **Memory Management and ARC**
 - [x] **Equitable and Comparable**
+
+### Part VI
