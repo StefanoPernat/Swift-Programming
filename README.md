@@ -47,3 +47,4 @@ This repository will be a set of playground from the book I use to learn Swift
 ### Part VI
 
 - [x] **Your first Cocoa Application**
+- [x] **Your first iOS Application**
